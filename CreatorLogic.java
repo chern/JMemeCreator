@@ -143,7 +143,7 @@ public class CreatorLogic
 
         // draw main panel, a BorderLayout controlling all other panels
         JPanel mainPanel = new JPanel(); // declare and initialize JPanel object referenced by mainPanel
-        mainPanel.setLayout(new BorderLayout(5,5)); // invoke setLayout mutator method on JPanel referenced by mainPanel, pass in newly constructed BorderLayout as explicit parameter
+        mainPanel.setLayout(new BorderLayout(5, 5)); // invoke setLayout mutator method on JPanel referenced by mainPanel, pass in newly constructed BorderLayout as explicit parameter
 
         // invoke mutator methods that will draw their respective panels
         drawLeftPanel(mainPanel);
@@ -157,7 +157,7 @@ public class CreatorLogic
 
     private void drawLeftPanel (JPanel mainP) {
         JPanel leftPanel = new JPanel(); // declare and initialize new JPanel object referenced by leftPanel
-        leftPanel.setLayout(new GridLayout(7,1)); // invoke setLayout mutator method, assign a 7x1 GridLayout to JPanel
+        leftPanel.setLayout(new GridLayout(7, 1)); // invoke setLayout mutator method, assign a 7x1 GridLayout to JPanel
 
         imageComboBox.setPreferredSize(new Dimension(133, 133)); // invoke setPreferredSize mutator method on JComboBox object referenced by imageComboBox
         imageComboBox.setEditable(false); // invoke setEditable mutator method on imageComboBox
@@ -232,7 +232,7 @@ public class CreatorLogic
 
     private void drawRightPanel (JPanel mainP) {
         JPanel rightPanel = new JPanel(); // declare and initialize new JPanel object referenced by rightPanel
-        rightPanel.setLayout(new GridLayout(7,1)); // invoke setLayout mutator method, assign a 7x1 GridLayout to JPanel
+        rightPanel.setLayout(new GridLayout(7, 1)); // invoke setLayout mutator method, assign a 7x1 GridLayout to JPanel
 
         displayCaptionControls(rightPanel); // invoke displayCaptionControls method, implemented below
 
@@ -252,7 +252,7 @@ public class CreatorLogic
         textSizeButtonGroup.add(smallTextRadioButton); // add text size radio buttons to button group
         textSizeButtonGroup.add(mediumTextRadioButton);
         textSizeButtonGroup.add(largeTextRadioButton);
-        textSizePanel.setLayout(new GridLayout (1,3)); // set 1x3 GridLayout manager for JPanel holding textSize radio buttons
+        textSizePanel.setLayout(new GridLayout (1, 3)); // set 1x3 GridLayout manager for JPanel holding textSize radio buttons
         textSizePanel.add(smallTextRadioButton);
         textSizePanel.add(mediumTextRadioButton);
         textSizePanel.add(largeTextRadioButton);
@@ -266,7 +266,7 @@ public class CreatorLogic
         textColorButtonGroup.add(blueTextRadioButton);
         textColorButtonGroup.add(redTextRadioButton);
         textColorButtonGroup.add(greenTextRadioButton);
-        textColorPanel.setLayout(new GridLayout(2,2)); // set 2x2 GridLayout manager for JPanel holding text color radio buttons
+        textColorPanel.setLayout(new GridLayout(2, 2)); // set 2x2 GridLayout manager for JPanel holding text color radio buttons
         textColorPanel.add(whiteTextRadioButton);
         textColorPanel.add(blueTextRadioButton);
         textColorPanel.add(redTextRadioButton);
