@@ -51,12 +51,12 @@ public class CreatorLogic
     private final Color greenColor = new Color(40, 237, 165);
 
     // final ImageIcon object references to display thumbnails in combo box
-    private final ImageIcon gatsbyIcon = new ImageIcon("gatsby-100.jpg");
-    private final ImageIcon vaderIcon = new ImageIcon("vader-100.jpg");
-    private final ImageIcon hanIcon = new ImageIcon("han-100.jpg");
-    private final ImageIcon obamaIcon = new ImageIcon("obama-100.jpg");
-    private final ImageIcon putinIcon = new ImageIcon("putin-100.jpg");
-    private final ImageIcon christieIcon = new ImageIcon("christie-100.jpg");
+    private final ImageIcon gatsbyIcon = new ImageIcon("gatsby-80.jpg");
+    private final ImageIcon vaderIcon = new ImageIcon("vader-80.jpg");
+    private final ImageIcon hanIcon = new ImageIcon("han-80.jpg");
+    private final ImageIcon obamaIcon = new ImageIcon("obama-80.jpg");
+    private final ImageIcon putinIcon = new ImageIcon("putin-80.jpg");
+    private final ImageIcon christieIcon = new ImageIcon("christie-80.jpg");
     // final array holding ImageIcon references, used to initialize combo box for selecting image
     private final ImageIcon[] iconList = {gatsbyIcon, vaderIcon, hanIcon, obamaIcon, putinIcon, christieIcon};
 
@@ -159,7 +159,7 @@ public class CreatorLogic
         JPanel leftPanel = new JPanel(); // declare and initialize new JPanel object referenced by leftPanel
         leftPanel.setLayout(new GridLayout(7,1)); // invoke setLayout mutator method, assign a 7x1 GridLayout to JPanel
 
-        imageComboBox.setPreferredSize(new Dimension(150, 150)); // invoke setPreferredSize mutator method on JComboBox object referenced by imageComboBox
+        imageComboBox.setPreferredSize(new Dimension(133, 133)); // invoke setPreferredSize mutator method on JComboBox object referenced by imageComboBox
         imageComboBox.setEditable(false); // invoke setEditable mutator method on imageComboBox
         leftPanel.add(imageComboBox); // invoke add mutator method, adds imageComboBox to the JPanel
 
