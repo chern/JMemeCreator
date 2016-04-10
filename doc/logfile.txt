@@ -1,0 +1,35 @@
+Project documentation
+<---- javadoc command: ---->
+/Applications/BlueJ/BlueJ.app/Contents/Frameworks/jdk.framework/Versions/A/Contents/Home/bin/javadoc
+-sourcepath
+/Users/wc-sfhs/Documents/Sophomore/3 - Computer Programming/Projects/LogoCreator
+-source
+1.8
+-classpath
+/Applications/BlueJ/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Applications/BlueJ/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Applications/BlueJ/BlueJ.app/Contents/Resources/Java/userlib/pi4j-core.jar:/Applications/BlueJ/BlueJ.app/Contents/Resources/Java/userlib/pi4j-device.jar:/Applications/BlueJ/BlueJ.app/Contents/Resources/Java/userlib/pi4j-gpio-extension.jar:/Applications/BlueJ/BlueJ.app/Contents/Resources/Java/userlib/pi4j-service.jar:/Users/wc-sfhs/Documents/Sophomore/3 - Computer Programming/Projects/LogoCreator
+-d
+/Users/wc-sfhs/Documents/Sophomore/3 - Computer Programming/Projects/LogoCreator/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Applications/BlueJ/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+LogoCreator
+-windowtitle
+LogoCreator
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+/Users/wc-sfhs/Documents/Sophomore/3 - Computer Programming/Projects/LogoCreator/CreatorLogic.java
+/Users/wc-sfhs/Documents/Sophomore/3 - Computer Programming/Projects/LogoCreator/LCRunner.java
+<---- end of javadoc command ---->
+Loading source file /Users/wc-sfhs/Documents/Sophomore/3 - Computer Programming/Projects/LogoCreator/CreatorLogic.java...
+Loading source file /Users/wc-sfhs/Documents/Sophomore/3 - Computer Programming/Projects/LogoCreator/LCRunner.java...
+Constructing Javadoc information...

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CreatorLogic()
+comment1.params=
+comment1.target=void\ displayInterface()
+comment2.params=mainP
+comment2.target=void\ drawLeftPanel(javax.swing.JPanel)
+comment3.params=mainP
+comment3.target=void\ drawCenterPanel(javax.swing.JPanel)
+comment4.params=mainP
+comment4.target=void\ drawRightPanel(javax.swing.JPanel)
+comment5.params=p
+comment5.target=void\ displayCaptionControls(javax.swing.JPanel)
+comment6.params=p
+comment6.target=void\ displayFontComboBox(javax.swing.JPanel)
+comment7.params=
+comment7.target=void\ loadImages()
+comment8.params=
+comment8.target=void\ addTextStyleEventListeners()
+numComments=9
