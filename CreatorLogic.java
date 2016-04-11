@@ -92,7 +92,7 @@ public class CreatorLogic
     private JRadioButton blueTextRadioButton;
     private JRadioButton redTextRadioButton;
     private JRadioButton greenTextRadioButton;
-
+    
     // BufferedImages to hold actual full-size images
     private BufferedImage gatsbyImage;
     private BufferedImage vaderImage;
@@ -112,7 +112,7 @@ public class CreatorLogic
         currentFont = new Font(currentFontFamily, currentFontStyle, currentFontSize); // invokes Font constructor to initialize currentFont object reference
 
         imageComboBox = new JComboBox<>(iconList); // initialize JComboBox which displays all icons for the user to select
-
+        
         imageDescriptionLabel = new JLabel("Gatsby"); // invoke JLabel constructor and initialize the JLabel which provides a description of the currently selected image
         mainImageLabel = new JLabel(new ImageIcon(gatsbyImage)); // the main image in the center of window is initialized as JLabel with an icon
 
@@ -144,7 +144,7 @@ public class CreatorLogic
         // draw main panel, a BorderLayout controlling all other panels
         JPanel mainPanel = new JPanel(); // declare and initialize JPanel object referenced by mainPanel
         mainPanel.setLayout(new BorderLayout(5, 5)); // invoke setLayout mutator method on JPanel referenced by mainPanel, pass in newly constructed BorderLayout as explicit parameter
-
+        
         // invoke mutator methods that will draw their respective panels
         drawLeftPanel(mainPanel);
         drawCenterPanel(mainPanel);
